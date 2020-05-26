@@ -42,23 +42,18 @@ def bot():
     
     if 'eastern cape' in incoming_msg:
         # return response for Eastern Cape
-        msg.body('Which city are you in or is the closest to you?\nEast London\nPort Elizabeth\n')
+        msg.body('Which city are you in or is the closest to you?\n1. East London\n2. Port Elizabeth\n') # need to fill this out
         responded = True
         
-    if 'quote' in incoming_msg:
-        # return a quote
-        r = requests.get('https://api.quotable.io/random')
-        if r.status_code == 200:
-            data = r.json()
-            quote = f'{data["content"]} ({data["author"]})'
-        else:
-            quote = 'I could not retrieve a quote at this time, sorry.'
-        msg.body(quote)
+    if '1' in incoming_msg:
+        # return locations in East London
+        msg.body('Mazoyi Mixture can be found at these locations:\n\nJohn Forbes Pharmacy, Sounthernwood\nQuigney Pharmacy, Quigney')
         responded = True
-    if 'cat' in incoming_msg:
-        # return a cat pic
-        msg.media('https://cataas.com/cat')
+    if 'east london' in incoming_msg:
+        # return locations in East London
+        msg.body('Mazoyi Mixture can be found at these locations:\n\nJohn Forbes Pharmacy, Sounthernwood\nQuigney Pharmacy, Quigney')
         responded = True
+
     if not responded:
         msg.body('Thank you for your interest in Mazoyi Mixture.')
     return str(resp)
