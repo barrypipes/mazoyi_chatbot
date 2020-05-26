@@ -56,6 +56,7 @@ def bot():
         # return locations in East London
         msg.body('Mazoyi Mixture can be found at these locations:\n\nJohn Forbes Pharmacy, Sounthernwood\nQuigney Pharmacy, Quigney')
         responded = True
+        
     if 'east london' in incoming_msg:
         # return locations in East London
         msg.body('Mazoyi Mixture can be found at these locations:\n\nJohn Forbes Pharmacy, Sounthernwood\nQuigney Pharmacy, Quigney')
