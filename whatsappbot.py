@@ -22,19 +22,19 @@ def bot():
     if 'molo' in incoming_msg:
         # return image of product and greeting
         msg.media('http://pychat.shirlhost.com/images/product.png')
-        msg.body('Thank you for your interest in Mazoyi Mixture. How can I help you?\n\nMAIN MENU\n\n1. What is Mazoyi?\n2. Where can I find Mazoyi?\n3. Mazoyi products & prices.\n4. Place your order.\n5. Upload proof of payment')
+        msg.body('Thank you for your interest in Mazoyi Mixture. How can I help you?\n\nMAIN MENU\n\n\u25AA What is Mazoyi?\n\u25AA Where can I find Mazoyi?\n\u25AA Mazoyi products & prices.\n\u25AA Place your order.\n\u25AA Upload proof of payment')
         responded = True
 
     if 'hi' in incoming_msg:
         # return image of product and greeting
         msg.media('http://pychat.shirlhost.com/images/product.png')
-        msg.body('Thank you for your interest in Mazoyi Mixture. How can I help you?\n\nMAIN MENU\n\n1. What is Mazoyi?\n2. Where can I find Mazoyi?\n3. Mazoyi products & prices.\n4. Place your order.\n5. Upload proof of payment')
+        msg.body('Thank you for your interest in Mazoyi Mixture. How can I help you?\n\nMAIN MENU\n\n\u25AA What is Mazoyi?\n\u25AA Where can I find Mazoyi?\n\u25AA Mazoyi products & prices.\n\u25AA Place your order.\n\u25AA Upload proof of payment')
         responded = True
 
     if 'hello' in incoming_msg:
         # return image of product and greeting
         msg.media('http://pychat.shirlhost.com/images/product.png')
-        msg.body('Thank you for your interest in Mazoyi Mixture. How can I help you?\n\nMAIN MENU\n\n1. What is Mazoyi?\n2. Where can I find Mazoyi?\n3. Mazoyi products & prices.\n4. Place your order.\n5. Upload proof of payment')
+        msg.body('Thank you for your interest in Mazoyi Mixture. How can I help you?\n\nMAIN MENU\n\n\u25AA What is Mazoyi?\n\u25AA Where can I find Mazoyi?\n\u25AA Mazoyi products & prices.\n\u25AA Place your order.\n\u25AA Upload proof of payment')
         responded = True
 
     if 'find' in incoming_msg:
@@ -56,14 +56,14 @@ def bot():
         # return locations in East London
         msg.body('Mazoyi Mixture can be found at these locations:\n\nJohn Forbes Pharmacy, Sounthernwood\nQuigney Pharmacy, Quigney')
         responded = True
-        
+
     if 'east london' in incoming_msg:
         # return locations in East London
         msg.body('Mazoyi Mixture can be found at these locations:\n\nJohn Forbes Pharmacy, Sounthernwood\nQuigney Pharmacy, Quigney')
         responded = True
 
     if not responded:
-        msg.body('Thank you so much for your interest in Mazoyi Mixture.')
+        msg.body(u'Thank you so much for your interest in Mazoyi Mixture.\u2713')
     return str(resp)
 
 
