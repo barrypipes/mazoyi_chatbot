@@ -64,7 +64,7 @@ def bot():
 
     if 'Western Cape' in incoming_msg:
         # return response for Eastern Cape
-        msg.body('Which city are you in or is the closest to you?\n1. East London\n2. Port Elizabeth\n') # need to fill this out
+        msg.body('Which city are you in or is the closest to you?\n\n1. Paarl 1\n2. Paarl 2\n3. Kraaifotein 1\n4. Kraaifotein 2\n5. Makhaza\n6. Khayelitsha Site B Mall\n7. Khayelitsha Mall 1\n8. Khayelitsha Mall 2\n9. Site C\n10. Eerste River\n11. Blue Daisy\n12. Michells Plein\n13. Town Centre\n14. Phillippi 2\n14. Phillippi-Plaza\n15. Wynberg\n16. Dorlesville\n17. Kuilsriver\n18. Bellville 1\n19. Bellville 2\n20. Mfuleni') # need to fill this out
         responded = True
 
     if 'KwaZulu Natal' in incoming_msg:
