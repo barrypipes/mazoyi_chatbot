@@ -39,6 +39,11 @@ def bot():
         # retrun location response
         msg.body('If you would like to know where to find Mazoyi Mixture, tell me what province are you in:\nGauteng\nFreestate\nEastern Cape') # need to fill out provinces
         responded = True
+        
+        if 'buy' in incoming_msg:
+        # retrun location response
+        msg.body('If you would like to know where to find Mazoyi Mixture, tell me what province are you in:\nGauteng\nFreestate\nEastern Cape') # need to fill out provinces
+        responded = True
     
     if 'eastern cape' in incoming_msg:
         # return response for Eastern Cape
