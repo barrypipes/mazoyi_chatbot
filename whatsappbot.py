@@ -34,6 +34,17 @@ def bot():
         msg.media('http://pychat.shirlhost.com/images/product.png')
         msg.body('Thank you for your interest in Mazoyi Mixture http://www.mazoyigroup.co.za. How can I help you?')
         responded = True
+
+    if 'find' in incoming_msg:
+        # retrun location response
+        msg.body('If you would like to know where to find Mazoyi Mixture, tell me what province are you in:')
+        responded = True
+    
+    if 'eastern cape' in incoming_msg:
+        # return response for Eastern Cape
+        msg.body('Which city are you in or is the closest to you?\nEast London\nPort Elizabeth\n')
+        responded = True
+        
     if 'quote' in incoming_msg:
         # return a quote
         r = requests.get('https://api.quotable.io/random')
@@ -50,7 +61,6 @@ def bot():
         responded = True
     if not responded:
         msg.body('I only know about famous quotes and cats, sorry!')
-    if 'find' in 
     return str(resp)
     
 
