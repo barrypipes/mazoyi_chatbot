@@ -55,7 +55,7 @@ def bot():
 
     if 'Gauteng' in incoming_msg:
         # return response for Eastern Cape
-        msg.body('Which city are you in or is the closest to you?\n\n1. East London\n2. Port Elizabeth\n') # need to fill this out
+        msg.body('Which city are you in or is the closest to you?\n\n1. Vanderbijlpark') # need to fill this out
         responded = True
 
     if 'Freestate' in incoming_msg:
@@ -90,7 +90,7 @@ def bot():
 
     if 'Northwest' in incoming_msg:
         # return response for Eastern Cape
-        msg.body('Which city are you in or is the closest to you?\n\n1. East London\n2. Port Elizabeth\n') # need to fill this out
+        msg.body('Which city are you in or is the closest to you?\n\n1. Potchefstroom\n2. Klerkdorp\n3. Vryburg\n4. Jouberton') # need to fill this out
         responded = True
 
     if '1' in incoming_msg:
