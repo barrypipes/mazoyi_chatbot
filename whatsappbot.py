@@ -51,42 +51,42 @@ def bot():
         # return response for Eastern Cape
         msg.body('Which city are you in or is the closest to you?\n1. East London\n2. Port Elizabeth\n') # need to fill this out
         responded = True
-        
+
     if 'Gauteng' in incoming_msg:
         # return response for Eastern Cape
         msg.body('Which city are you in or is the closest to you?\n1. East London\n2. Port Elizabeth\n') # need to fill this out
         responded = True
-        
+
     if 'Freestate' in incoming_msg:
         # return response for Eastern Cape
         msg.body('Which city are you in or is the closest to you?\n1. East London\n2. Port Elizabeth\n') # need to fill this out
         responded = True
-        
+
     if 'Western Cape' in incoming_msg:
         # return response for Eastern Cape
         msg.body('Which city are you in or is the closest to you?\n1. East London\n2. Port Elizabeth\n') # need to fill this out
         responded = True
-        
+
     if 'KwaZulu Natal' in incoming_msg:
         # return response for Eastern Cape
         msg.body('Which city are you in or is the closest to you?\n1. East London\n2. Port Elizabeth\n') # need to fill this out
         responded = True
-        
+
     if 'Limpompo' in incoming_msg:
         # return response for Eastern Cape
         msg.body('Which city are you in or is the closest to you?\n1. East London\n2. Port Elizabeth\n') # need to fill this out
         responded = True
-        
+
     if 'Northern Cape' in incoming_msg:
         # return response for Eastern Cape
         msg.body('Which city are you in or is the closest to you?\n1. East London\n2. Port Elizabeth\n') # need to fill this out
         responded = True
-        
+
     if 'Mpumalanga' in incoming_msg:
         # return response for Eastern Cape
         msg.body('Which city are you in or is the closest to you?\n1. East London\n2. Port Elizabeth\n') # need to fill this out
         responded = True
-        
+
     if 'Northwest' in incoming_msg:
         # return response for Eastern Cape
         msg.body('Which city are you in or is the closest to you?\n1. East London\n2. Port Elizabeth\n') # need to fill this out
@@ -103,7 +103,7 @@ def bot():
         responded = True
 
     if not responded:
-        msg.body(u'Thank you so much for your interest in Mazoyi Mixture.\u2713')
+        msg.body('Thank you so much for your interest in Mazoyi Mixture.')
     return str(resp)
 
 
