@@ -22,7 +22,8 @@ def bot():
     if 'molo' in incoming_msg:
         # return image of product and greeting
         msg.media('http://pychat.shirlhost.com/images/product.png')
-        msg.body('Thank you for your interest in Mazoyi Mixture http://www.mazoyigroup.co.za. How can I help you?')
+        #msg.body('Thank you for your interest in Mazoyi Mixture http://www.mazoyigroup.co.za. How can I help you?')
+        msg.body('Thank you for your interest in Mazoyi Mixture. How can I help you?/nMAIN MENU/n1. What is Mazoyi?\n2. Where can I find Mazoyi?\n3 Mazoyi products & prices./n4 Place your order./n5 Upload proof of payment')
         responded = True
     if 'hi' in incoming_msg:
         # return image of product and greeting
