@@ -60,7 +60,7 @@ def bot():
         msg.media('https://cataas.com/cat')
         responded = True
     if not responded:
-        msg.body('Thank you for your interest in Mazoyi Mixture.')
+        msg.body('Thank you so much for your interest in Mazoyi Mixture.')
     return str(resp)
     
 
