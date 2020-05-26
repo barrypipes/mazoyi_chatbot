@@ -39,62 +39,67 @@ def bot():
 
     if 'find' in incoming_msg:
         # retrun location response
-        msg.body('Okay, tell me what province are you in:\n\n\u25AA Gauteng\n\u25AA Freestate\n\u25AA Eastern Cape\n\u25AA Western Cape\n\u25AA KwaZulu Natal\n\u25AA Limpompo\n\u25AA Northwest\n\u25AA Mpumalanga\n\u25AA Northern Cape') # need to fill out provinces
+        msg.body('If you would like to know where to find Mazoyi Mixture, tell me what province are you in:\n\nGauteng\nFreestate\nEastern Cape\nWestern Cape\nKwaZulu Natal\nLimpompo\nNorthwest\nMpumalanga\nNorthern Cape') # need to fill out provinces
         responded = True
 
     if 'buy' in incoming_msg:
         # retrun location response
-        msg.body('Okay, tell me what province are you in:\n\n\u25AA Gauteng\n\u25AA Freestate\n\u25AA Eastern Cape\n\u25AA Western Cape\n\u25AA KwaZulu Natal\n\u25AA Limpompo\n\u25AA Northwest\n\u25AA Mpumalanga\n\u25AA Northern Cape') # need to fill out provinces
+        msg.body('If you would like to know where to find Mazoyi Mixture, tell me what province are you in:\nGauteng\nFreestate\nEastern Cape\nWestern Cape\nKwaZulu Natal\nLimpompo\nNorthwest\nMpumalanga\nNorthern Cape') # need to fill out provinces
         responded = True
 
     if 'eastern cape' in incoming_msg:
         # return response for Eastern Cape
-        msg.body('Which city are you in or is the closest to you?\n\n\u25AA East London\n\u25AA Port Elizabeth\n') # need to fill this out
+        msg.body('Which city are you in or is the closest to you?\n\n1. East London\n2. Queenstown\n3. King Williams Town\n4. Berlin\n5. Mdantsane\n6. Alice\n7. Fort Beaufort\n8. Mthatha\n9. Idutya\n10. Centane\n11. Butterworth\n12. Engcobo\n13. Ngqamakwe\n14. Tsomo\n14. Elliotdale\n15. Libode\n16. Tsolo\n17. Qumbu\n18. Mount Frere') # need to fill this out
         responded = True
 
-    if 'gauteng' in incoming_msg:
+    if 'Gauteng' in incoming_msg:
         # return response for Eastern Cape
-        msg.body('Which city are you in or is the closest to you?\n\n\u25AA East London\n\u25AA Port Elizabeth\n') # need to fill this out
+        msg.body('Which city are you in or is the closest to you?\n1. East London\n2. Port Elizabeth\n') # need to fill this out
         responded = True
 
-    if 'freestate' in incoming_msg:
+    if 'Freestate' in incoming_msg:
         # return response for Eastern Cape
-        msg.body('Which city are you in or is the closest to you?\n\n\u25AA East London\n\u25AA Port Elizabeth\n') # need to fill this out
+        msg.body('Which city are you in or is the closest to you?\n\n1. Fickburg\n2. Kroonstad\n3. Welkom\n4. Bethlehem\n5. Parys\n6. Botshabelo\n7. Thaba Nchu\n8. Phuthaditjhaba\n9. Bloemfotein\n10. Odendaalsrus\n11. Virginia Central') # need to fill this out
         responded = True
 
-    if 'western cape' in incoming_msg:
+    if 'Western Cape' in incoming_msg:
         # return response for Eastern Cape
-        msg.body('Which city are you in or is the closest to you?\n\n\u25AA East London\n\u25AA Port Elizabeth\n') # need to fill this out
+        msg.body('Which city are you in or is the closest to you?\n1. East London\n2. Port Elizabeth\n') # need to fill this out
         responded = True
 
-    if 'kwazulu natal' in incoming_msg:
+    if 'KwaZulu Natal' in incoming_msg:
         # return response for Eastern Cape
-        msg.body('Which city are you in or is the closest to you?\n\n\u25AA East London\n\u25AA Port Elizabeth\n') # need to fill this out
+        msg.body('Which city are you in or is the closest to you?\n1. East London\n2. Port Elizabeth\n') # need to fill this out
         responded = True
 
-    if 'limpompo' in incoming_msg:
+    if 'Limpompo' in incoming_msg:
         # return response for Eastern Cape
-        msg.body('Which city are you in or is the closest to you?\n\n\u25AA East London\n\u25AA Port Elizabeth\n') # need to fill this out
+        msg.body('Which city are you in or is the closest to you?\n1. East London\n2. Port Elizabeth\n') # need to fill this out
         responded = True
 
-    if 'northern cape' in incoming_msg:
+    if 'Northern Cape' in incoming_msg:
         # return response for Eastern Cape
-        msg.body('Which city are you in or is the closest to you?\n\n\u25AA East London\n\u25AA Port Elizabeth\n') # need to fill this out
+        msg.body('Which city are you in or is the closest to you?\n1. East London\n2. Port Elizabeth\n') # need to fill this out
         responded = True
 
-    if 'mpumalanga' in incoming_msg:
+    if 'Mpumalanga' in incoming_msg:
         # return response for Eastern Cape
-        msg.body('Which city are you in or is the closest to you?\n\n\u25AA East London\n\u25AA Port Elizabeth\n') # need to fill this out
+        msg.body('Which city are you in or is the closest to you?\n1. East London\n2. Port Elizabeth\n') # need to fill this out
         responded = True
 
-    if 'northwest' in incoming_msg:
+    if 'Northwest' in incoming_msg:
         # return response for Eastern Cape
-        msg.body('Which city are you in or is the closest to you?\n\n\u25AA East London\n\u25AA Port Elizabeth\n') # need to fill this out
+        msg.body('Which city are you in or is the closest to you?\n1. East London\n2. Port Elizabeth\n') # need to fill this out
+        responded = True
+
+    if '1' in incoming_msg:
+        # return locations in East London
+        msg.body('Mazoyi Mixture can be found at these locations:\n\nJohn Forbes Pharmacy, Sounthernwood\nQuigney Pharmacy, Quigney')
         responded = True
 
     if 'east london' in incoming_msg:
         # return locations in East London
-        msg.body('Mazoyi Mixture can be found at these locations:\n\n\u25AAJohn Forbes Pharmacy, Sounthernwood\n\u25AAQuigney Pharmacy, Quigney')
+        msg.body('Mazoyi Mixture can be found at these locations:\n\nJohn Forbes Pharmacy, Sounthernwood\nQuigney Pharmacy, Quigney')
         responded = True
 
     if not responded:
