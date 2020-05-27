@@ -48,47 +48,47 @@ def bot():
         responded = True
         
     # Provinces #
-    if 'Eastern Cape' in incoming_msg:
+    if 'eastern cape' in incoming_msg:
         # return response for Eastern Cape
         msg.body('Which city are you in or is the closest to you?\n\n1. East London\n2. Queenstown\n3. King Williams Town\n4. Berlin\n5. Mdantsane\n6. Alice\n7. Fort Beaufort\n8. Mthatha\n9. Idutya\n10. Centane\n11. Butterworth\n12. Engcobo\n13. Ngqamakwe\n14. Tsomo\n14. Elliotdale\n15. Libode\n16. Tsolo\n17. Qumbu\n18. Mount Frere\n19. Mqanduli\n20. PSJ Lusiki\n21. Sterkspruit\n22. Cofimvaba') # need to fill this out
         responded = True
 
-    if 'Gauteng' in incoming_msg:
+    if 'gauteng' in incoming_msg:
         # return response for Eastern Cape
         msg.body('Which city are you in or is the closest to you?\n\n1. Vanderbijlpark') # need to fill this out
         responded = True
 
-    if 'Freestate' in incoming_msg:
+    if 'freestate' in incoming_msg:
         # return response for Eastern Cape
         msg.body('Which city are you in or is the closest to you?\n\n1. Fickburg\n2. Kroonstad\n3. Welkom\n4. Bethlehem\n5. Parys\n6. Botshabelo\n7. Thaba Nchu\n8. Phuthaditjhaba\n9. Bloemfotein\n10. Odendaalsrus\n11. Virginia Central') # need to fill this out
         responded = True
 
-    if 'Western Cape' in incoming_msg:
+    if 'western cape' in incoming_msg:
         # return response for Eastern Cape
         msg.body('Which city are you in or is the closest to you?\n\n1. Paarl 1\n2. Paarl 2\n3. Kraaifotein 1\n4. Kraaifotein 2\n5. Makhaza\n6. Khayelitsha Site B Mall\n7. Khayelitsha Mall 1\n8. Khayelitsha Mall 2\n9. Site C\n10. Eerste River\n11. Blue Daisy\n12. Michells Plein\n13. Town Centre\n14. Phillippi 2\n14. Phillippi-Plaza\n15. Wynberg\n16. Dorlesville\n17. Kuilsriver\n18. Bellville 1\n19. Bellville 2\n20. Mfuleni') # need to fill this out
         responded = True
 
-    if 'KwaZulu Natal' in incoming_msg:
+    if 'kwazulu natal' in incoming_msg:
         # return response for Eastern Cape
         msg.body('Which city are you in or is the closest to you?\n\n1. Durban') # need to fill this out
         responded = True
 
-    if 'Limpompo' in incoming_msg:
+    if 'limpompo' in incoming_msg:
         # return response for Eastern Cape
         msg.body('Which city are you in or is the closest to you?\n\n1. Polokwane') # need to fill this out
         responded = True
 
-    if 'Northern Cape' in incoming_msg:
+    if 'northern cape' in incoming_msg:
         # return response for Eastern Cape
         msg.body('Which city are you in or is the closest to you?\n\n1. Hartswater') # need to fill this out
         responded = True
 
-    if 'Mpumalanga' in incoming_msg:
+    if 'mpumalanga' in incoming_msg:
         # return response for Eastern Cape
         msg.body('Which city are you in or is the closest to you?\n\n1. Nespruit') # need to fill this out
         responded = True
 
-    if 'Northwest' in incoming_msg:
+    if 'northwest' in incoming_msg:
         # return response for Eastern Cape
         msg.body('Which city are you in or is the closest to you?\n\n1. Potchefstroom\n2. Klerkdorp\n3. Vryburg\n4. Jouberton') # need to fill this out
         responded = True
