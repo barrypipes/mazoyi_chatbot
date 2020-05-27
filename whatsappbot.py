@@ -39,23 +39,26 @@ def bot():
 
     if 'find' in incoming_msg:
         # retrun location response
-        msg.body('If you would like to know where to find Mazoyi Mixture, tell me what province are you in:\n\nGauteng\nFreestate\nEastern Cape\nWestern Cape\nKwaZulu Natal\nLimpompo\nNorthwest\nMpumalanga\nNorthern Cape') # need to fill out provinces
+        msg.media('http://pychat.shirlhost.com/images/product.png')
+        msg.body('If you would like to know where to find Mazoyi Mixture, tell me what province are you in:\n\nCHOOSE YOUR PROVINCE.\n\n\u25AA Eastern Cape\n\u25AA Western Cape\n\u25AA Northern Cape\n\u25AA Northwest\n\u25AA Freestate\n\u25AA Mpumalanga\n\u25AA Gauteng\n\u25AA KwaZulu Natal\n\u25AA Limpopo\n')
         responded = True
 
     if 'buy' in incoming_msg:
         # retrun location response
-        msg.body('If you would like to know where to find Mazoyi Mixture, tell me what province are you in:\nGauteng\nFreestate\nEastern Cape\nWestern Cape\nKwaZulu Natal\nLimpompo\nNorthwest\nMpumalanga\nNorthern Cape') # need to fill out provinces
+        msg.media('http://pychat.shirlhost.com/images/product.png')
+        msg.body('If you would like to know where to find Mazoyi Mixture, tell me what province are you in:\n\nCHOOSE YOUR PROVINCE.\n\n\u25AA Eastern Cape\n\u25AA Western Cape\n\u25AA Northern Cape\n\u25AA Northwest\n\u25AA Freestate\n\u25AA Mpumalanga\n\u25AA Gauteng\n\u25AA KwaZulu Natal\n\u25AA Limpopo\n')
         responded = True
+
         
     # Provinces #
     if 'eastern cape' in incoming_msg:
         # return response for Eastern Cape
-        msg.body('Which city are you in or is the closest to you?\n\n1. East London\n2. Queenstown\n3. King Williams Town\n4. Berlin\n5. Mdantsane\n6. Alice\n7. Fort Beaufort\n8. Mthatha\n9. Idutya\n10. Centane\n11. Butterworth\n12. Engcobo\n13. Ngqamakwe\n14. Tsomo\n14. Elliotdale\n15. Libode\n16. Tsolo\n17. Qumbu\n18. Mount Frere\n19. Mqanduli\n20. PSJ Lusiki\n21. Sterkspruit\n22. Cofimvaba') # need to fill this out
+        msg.body('Which city are you in or is the closest to you?\n\u25AA East London\n\u25AA Queenstown\n\u25AA King Williams Town\n\u25AA Berlin\n\u25AA Mdantsane\n\u25AA Alice\n\u25AA Fort Beaufort\n\u25AA Mthatha\n\u25AA Idutya\n\u25AA Centane\n\u25AA Butterworth\n\u25AA Engcobo\n\u25AA Ngqamakwe\n\u25AA Tsomo\n\u25AA Elliotdale\n\u25AA Libode\n\u25AA Tsolo\n\u25AA Qumbu\n\u25AA Mount Frere\n\u25AA Mqanduli\n\u25AA PSJ Lusiki\n\u25AA Sterkspruit\n\u25AA Cofimvaba\n') # need to fill this out
         responded = True
 
     if 'gauteng' in incoming_msg:
         # return response for Eastern Cape
-        msg.body('Which city are you in or is the closest to you?\n\n1. Vanderbijlpark') # need to fill this out
+        msg.body('Which city are you in or is the closest to you?\n\u25AA Vanderbijlpark') # need to fill this out
         responded = True
 
     if 'freestate' in incoming_msg:
