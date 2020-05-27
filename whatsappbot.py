@@ -70,7 +70,7 @@ def bot():
 
     if 'KwaZulu Natal' in incoming_msg:
         # return response for Eastern Cape
-        msg.body('Which city are you in or is the closest to you?\n\n1. Durban) # need to fill this out
+        msg.body('Which city are you in or is the closest to you?\n\n1. Durban') # need to fill this out
         responded = True
 
     if 'Limpompo' in incoming_msg:
