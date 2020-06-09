@@ -22,68 +22,74 @@ def bot():
     if 'molo' in incoming_msg:
         # return image of product and greeting
         msg.media('http://pychat.shirlhost.com/images/product.png')
-        msg.body('Thank you for your interest in Mazoyi Mixture. How can I help you?\n\nMAIN MENU\n\n1. What is Mazoyi?\n2. Where can I find Mazoyi?\n3. Mazoyi products & prices.\n4. Place your order.\n5. Upload proof of payment\n')
+        msg.body('Thank you for your interest in Mazoyi Mixture. How can I help you?\n\nMAIN MENU\n\n1. What is Mazoyi?\n2. Where can I find Mazoyi?\n3. Mazoyi products & prices.\n4. Place your order.\n5. Upload your reference number\n')
         responded = True
 
     if 'hi' in incoming_msg:
         # return image of product and greeting
         msg.media('http://pychat.shirlhost.com/images/product.png')
-        msg.body('Thank you for your interest in Mazoyi Mixture. How can I help you?\n\nMAIN MENU\n\n1. What is Mazoyi?\n2. Where can I find Mazoyi?\n3. Mazoyi products & prices.\n4. Place your order.\n5. Upload proof of payment\n')
+        msg.body('Thank you for your interest in Mazoyi Mixture. How can I help you?\n\nMAIN MENU\n\n1. What is Mazoyi?\n2. Where can I find Mazoyi?\n3. Mazoyi products & prices.\n4. Place your order.\n5. Upload your reference number\n')
         responded = True
 
     if 'hello' in incoming_msg:
         # return image of product and greeting
         msg.media('http://pychat.shirlhost.com/images/product.png')
-        msg.body('Thank you for your interest in Mazoyi Mixture. How can I help you?\n\nMAIN MENU\n\n1. What is Mazoyi?\n2. Where can I find Mazoyi?\n3. Mazoyi products & prices.\n4. Place your order.\n5. Upload proof of payment\n')
+        msg.body('Thank you for your interest in Mazoyi Mixture. How can I help you?\n\nMAIN MENU\n\n1. What is Mazoyi?\n2. Where can I find Mazoyi?\n3. Mazoyi products & prices.\n4. Place your order.\n5. Upload your reference number\n')
         responded = True
         
     if 'hey' in incoming_msg:
         # return image of product and greeting
         msg.media('http://pychat.shirlhost.com/images/product.png')
-        msg.body('Thank you for your interest in Mazoyi Mixture. How can I help you?\n\nMAIN MENU\n\n1. What is Mazoyi?\n2. Where can I find Mazoyi?\n3. Mazoyi products & prices.\n4. Place your order.\n5. Upload proof of payment\n')
+        msg.body('Thank you for your interest in Mazoyi Mixture. How can I help you?\n\nMAIN MENU\n\n1. What is Mazoyi?\n2. Where can I find Mazoyi?\n3. Mazoyi products & prices.\n4. Place your order.\n5. Upload your reference number\n')
         responded = True
         
     # Menu Trigger Words #
     if 'find' in incoming_msg:
-        # retrun location response
+        # return image of product and greeting
         msg.media('http://pychat.shirlhost.com/images/product.png')
-        msg.body('If you would like to know where to find Mazoyi Mixture, tell me what province are you in:\n\nCHOOSE YOUR PROVINCE.\n\nA. Eastern Cape\nB. Western Cape\nC. Northern Cape\nD. Northwest\nE.Freestate\nF. Mpumalanga\nG. Gauteng\nH. KwaZulu Natal\nI. Limpopo\n')
+        msg.body('Thank you for your interest in Mazoyi Mixture. How can I help you?\n\nMAIN MENU\n\n1. What is Mazoyi?\n2. Where can I find Mazoyi?\n3. Mazoyi products & prices.\n4. Place your order.\n5. Upload your reference number\n')
         responded = True
         
     if 'where' in incoming_msg:
-        # retrun location response
+        # return image of product and greeting
         msg.media('http://pychat.shirlhost.com/images/product.png')
-        msg.body('If you would like to know where to find Mazoyi Mixture, tell me what province are you in:\n\nCHOOSE YOUR PROVINCE.\n\nA. Eastern Cape\nB. Western Cape\nC. Northern Cape\nD. Northwest\nE.Freestate\nF. Mpumalanga\nG. Gauteng\nH. KwaZulu Natal\nI. Limpopo\n')
+        msg.body('Thank you for your interest in Mazoyi Mixture. How can I help you?\n\nMAIN MENU\n\n1. What is Mazoyi?\n2. Where can I find Mazoyi?\n3. Mazoyi products & prices.\n4. Place your order.\n5. Upload your reference number\n')
         responded = True
 
     if 'buy' in incoming_msg:
-        # retrun location response
+        # return image of product and greeting
         msg.media('http://pychat.shirlhost.com/images/product.png')
-        msg.body('If you would like to know where to find Mazoyi Mixture, tell me what province are you in:\n\nCHOOSE YOUR PROVINCE.\n\nA. Eastern Cape\nB. Western Cape\nC. Northern Cape\nD. Northwest\nE.Freestate\nF. Mpumalanga\nG. Gauteng\nH. KwaZulu Natal\nI. Limpopo\n')
+        msg.body('Thank you for your interest in Mazoyi Mixture. How can I help you?\n\nMAIN MENU\n\n1. What is Mazoyi?\n2. Where can I find Mazoyi?\n3. Mazoyi products & prices.\n4. Place your order.\n5. Upload your reference number\n')
         responded = True
         
     if 'want' in incoming_msg:
-        # retrun location response
+        # return image of product and greeting
         msg.media('http://pychat.shirlhost.com/images/product.png')
-        msg.body('If you would like to know where to find Mazoyi Mixture, tell me what province are you in:\n\nCHOOSE YOUR PROVINCE.\n\nA. Eastern Cape\nB. Western Cape\nC. Northern Cape\nD. Northwest\nE.Freestate\nF. Mpumalanga\nG. Gauteng\nH. KwaZulu Natal\nI. Limpopo\n')
+        msg.body('Thank you for your interest in Mazoyi Mixture. How can I help you?\n\nMAIN MENU\n\n1. What is Mazoyi?\n2. Where can I find Mazoyi?\n3. Mazoyi products & prices.\n4. Place your order.\n5. Upload your reference number\n')
         responded = True
         
     if 'mazoyi' in incoming_msg:
-        # retrun location response
+        # return image of product and greeting
         msg.media('http://pychat.shirlhost.com/images/product.png')
-        msg.body('If you would like to know where to find Mazoyi Mixture, tell me what province are you in:\n\nCHOOSE YOUR PROVINCE.\n\nA. Eastern Cape\nB. Western Cape\nC. Northern Cape\nD. Northwest\nE.Freestate\nF. Mpumalanga\nG. Gauteng\nH. KwaZulu Natal\nI. Limpopo\n')
+        msg.body('Thank you for your interest in Mazoyi Mixture. How can I help you?\n\nMAIN MENU\n\n1. What is Mazoyi?\n2. Where can I find Mazoyi?\n3. Mazoyi products & prices.\n4. Place your order.\n5. Upload your reference number\n')
         responded = True
         
     if 'medicine' in incoming_msg:
-        # retrun location response
+       # return image of product and greeting
         msg.media('http://pychat.shirlhost.com/images/product.png')
-        msg.body('If you would like to know where to find Mazoyi Mixture, tell me what province are you in:\n\nCHOOSE YOUR PROVINCE.\n\nA. Eastern Cape\nB. Western Cape\nC. Northern Cape\nD. Northwest\nE.Freestate\nF. Mpumalanga\nG. Gauteng\nH. KwaZulu Natal\nI. Limpopo\n')
+        msg.body('Thank you for your interest in Mazoyi Mixture. How can I help you?\n\nMAIN MENU\n\n1. What is Mazoyi?\n2. Where can I find Mazoyi?\n3. Mazoyi products & prices.\n4. Place your order.\n5. Upload your reference number\n')
         responded = True
         
-    # Provinces #
-    if 'eastern cape' in incoming_msg:
+    if 'get' in incoming_msg:
+        # return image of product and greeting
+        msg.media('http://pychat.shirlhost.com/images/product.png')
+        msg.body('Thank you for your interest in Mazoyi Mixture. How can I help you?\n\nMAIN MENU\n\n1. What is Mazoyi?\n2. Where can I find Mazoyi?\n3. Mazoyi products & prices.\n4. Place your order.\n5. Upload your reference number\n')
+        responded = True
+        
+    # What is Mazoyi (1) #
+    if '1' in incoming_msg:
         # return response for Eastern Cape
-        msg.body('Which city are you in or is the closest to you?\n\u25AA East London\n\u25AA Queenstown\n\u25AA King Williams Town\n\u25AA Berlin\n\u25AA Mdantsane\n\u25AA Alice\n\u25AA Fort Beaufort\n\u25AA Mthatha\n\u25AA Idutya\n\u25AA Centane\n\u25AA Butterworth\n\u25AA Engcobo\n\u25AA Ngqamakwe\n\u25AA Tsomo\n\u25AA Elliotdale\n\u25AA Libode\n\u25AA Tsolo\n\u25AA Qumbu\n\u25AA Mount Frere\n\u25AA Mqanduli\n\u25AA PSJ Lusiki\n\u25AA Sterkspruit\n\u25AA Cofimvaba\n') # need to fill this out
+        msg.body('What is Mazoyi?\n\n\u25AA Vanderbijlpark\n') # need to fill this out
         responded = True
 
     if 'gauteng' in incoming_msg:
