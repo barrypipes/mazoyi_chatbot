@@ -106,7 +106,7 @@ def bot():
         responded = True
 
     # Provinces #    
-    if 'gauteng' in incoming_msg:
+    if 'a' in incoming_msg:
         # return response for Eastern Cape
         msg.body('Which city are you in or is the closest to you?\n\u25AA Vanderbijlpark') # need to fill this out
         responded = True
