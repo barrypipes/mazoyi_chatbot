@@ -86,12 +86,26 @@ def bot():
         msg.body('Thank you for your interest in Mazoyi Mixture. How can I help you?\n\nMAIN MENU\n\n1. What is Mazoyi?\n2. Where can I find Mazoyi?\n3. Mazoyi products & prices.\n4. Place your order.\n5. Upload your reference number\n')
         responded = True
         
-    # What is Mazoyi (1) #
+    # Return To Main Menu #    
+    if '0' in incoming_msg:
+        # return image of product and greeting
+        msg.media('http://pychat.shirlhost.com/images/product.png')
+        msg.body('Thank you for your interest in Mazoyi Mixture. How can I help you?\n\nMAIN MENU\n\n1. What is Mazoyi?\n2. Where can I find Mazoyi?\n3. Mazoyi products & prices.\n4. Place your order.\n5. Upload your reference number\n')
+        responded = True     
+        
+    # What is Mazoyi? #
     if '1' in incoming_msg:
         # return response for Eastern Cape
-        msg.body('What is Mazoyi?\n\n\u25AA Vanderbijlpark\n') # need to fill this out
+        msg.body('What is Mazoyi?\n\n\u25AA Mazoyi is a mixture for kids that helps cure & prevent blah blah blah\n\n0. Go back to main menu.') # need to fill this out
+        responded = True
+        
+    # Where can I find Mazoyi? #
+    if '2' in incoming_msg:
+        # return response for Eastern Cape
+        msg.body('Which province do you live in?\n\nA. Eastern Cape\nB. Western Cape\nC. Northern Cape\nD. Free State\nE. KwaZulu Natal\nF. Gauteng\nG. Limpopo\nH. Mpumalanga\nI. North West\n\n0. Go back to main menu.') # need to fill this out
         responded = True
 
+    # Provinces #    
     if 'gauteng' in incoming_msg:
         # return response for Eastern Cape
         msg.body('Which city are you in or is the closest to you?\n\u25AA Vanderbijlpark') # need to fill this out
