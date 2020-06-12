@@ -96,7 +96,7 @@ def bot():
     # What is Mazoyi? #
     if '1' in incoming_msg:
         # return response for Eastern Cape
-        msg.body('What is Mazoyi?\n\n\u25AA Mazoyi is a mixture for kids that helps cure & prevent blah blah blah\n\n0. Go back to main menu.') # need to fill this out
+        msg.body('What is Mazoyi?\n\n\u25AA Mazoyi is complimentary mixture made from aloe as a main ingredient produced by Lwazi Marawu company ca\n\n0. Go back to main menu.') # need to fill this out
         responded = True
         
     # Where can I find Mazoyi? #
@@ -108,7 +108,12 @@ def bot():
     # Provinces #    
     if 'a' in incoming_msg:
         # return response for Eastern Cape
-        msg.body('Which city are you in or is the closest to you?\n\u25AA Vanderbijlpark') # need to fill this out
+        msg.body('Which city are you in or is the closest to you?\n\n6. Centane\n7. Idutywa\n8. UMthatha\n9. Nqamakhwe\n10. Tsomo\n11. Elliotdale\n12. Libode\n13. Tsolo\n14. Qumbu\n15. Queenstown\n16. Mount Frere\n17. East London\n18. eNgcobo\n19. King Williams Town\n20. Alice\n21. Mdantsane\n22. Berlin\n23. Fort Beautfort\n24. Mqanduli\n25. Port St Johns\n26. Lusikisiki\n27. Sterkspruit\n28. Lady Frere\n29. Bizana\n\n0. Return to main menu') # need to fill this out
+        responded = True
+        
+    if 'b' in incoming_msg:
+        # return response for Western Cape
+        msg.body('Which city are you in or is the closest to you?\n\n30. Paarl 1\n31. Paarl 2\n32. Kraaifotein 2\n33. Makaza\n34. Khayelitsha Site B\n35. Khayelitsha Mall 1\n35. Khayelitsha Mall 2\n36. Khayelitsha Site C\n37. Eerste River\n38. Michielsplein\n39. Town Center\n40. Philippi 2\n41. Philippi-Plaza\n42. Wynberg\n43. Bellville 1\n44. Bellville 2\n45. Mfuleni\n\n0. Return to main menu') # need to fill this out
         responded = True
 
     if 'freestate' in incoming_msg:
